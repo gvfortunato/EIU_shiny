@@ -1,0 +1,13 @@
+name: EIU_shiny
+title: EIU_shiny
+username:
+account: gvfortunato
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 676663
+bundleId: 1846516
+url: https://gvfortunato.shinyapps.io/EIU_shiny/
+when: 1548876273.46097
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: leiu.csv|notes.R|notes2.R

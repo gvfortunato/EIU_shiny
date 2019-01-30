@@ -1,4 +1,4 @@
-EIU = read.csv('EIU.csv')
+
 head(EIU)
 
 eiu = EIU[3:nrow(EIU), ]

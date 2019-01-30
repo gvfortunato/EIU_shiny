@@ -34,5 +34,5 @@ Yleiu %>% select('Country','year','measure','score') %>%
   filter(Country == 'Australia' & measure == 'VA') %>%
   ggplot(aes(x = year, y = score, group = 1, na.rm = T)) + geom_line()
 
-write.csv(Yleiu, 'Yleiu.csv')
+write.csv(Yleiu, 'yleiu.csv')
      

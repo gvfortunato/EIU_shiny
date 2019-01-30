@@ -5,7 +5,7 @@ library(dplyr)
 
 data = read.csv('eiu.csv')
 data = data[,-1]
-ldata = read.csv('Yleiu.csv')
+ldata = read.csv('yleiu.csv')
 ldata$score = as.numeric(ldata$score)
 ldata$year = as.numeric(ldata$year)
 
